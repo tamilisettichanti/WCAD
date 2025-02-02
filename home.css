@@ -1,0 +1,113 @@
+*{
+  padding:0;
+  margin:0;
+}
+.header{
+  background-color: rgb(91, 91, 233);
+  display:flex;
+  flex-direction: column;
+  height:300px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.gmrit-logo{
+  height:100px;
+}
+.main-heading{
+  font-size:17px;
+}
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:rgb(255, 255, 255);
+  box-shadow:0px 0px 10px 0.25px;
+  z-index: 1;
+
+}
+.nav-bar-img{
+height:30px;
+
+}
+.nav-links{
+  display:flex;
+  flex-direction: row;
+  width:300px;
+  justify-content: space-evenly;
+  
+}
+.links,.logout-link{
+  color:black;
+  text-decoration: none;
+  transition: color 0.25s;
+
+}
+.home-link ,.registration-link ,.contact-link{
+  display:flex;
+  align-items:center;
+
+}
+.links:hover,.logout-link:hover{
+  color:grey;
+}
+.subheading{
+  margin-top:10px;
+}
+.exam-software{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  font-size:15px;
+}
+.description{
+  text-align:center;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+.loginlinks{
+  display:flex;
+  flex-direction: column;
+  height:30px;
+  justify-content:space-between;
+  
+  
+}
+.login-links{
+  text-decoration: none;
+  color:rgb(89, 89, 241);
+  position: absolute;
+  left:20px;
+  transition:all 0.25s ;
+
+
+}
+.login-links:hover{
+  color:rgb(37, 37, 235);
+}
+.main-content{
+  background-color: aliceblue;
+  height:100vh;
+  z-index:-1;
+  
+}
+.admin-table,.student-table,.registration-table,.testpage-table{
+  text-align: center;
+  margin-top:50px;
+}
+table{
+  margin:auto;
+}
+.footer{
+  margin-top: 20px;
+  font-size:15px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.results{
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+.question{
+  margin-top:30px;
+  margin-bottom:30px;
+}

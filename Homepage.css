@@ -1,0 +1,38 @@
+.home{
+  background-image: url(gmrit-logo_files/gmrit-backgroundimg.png);
+  color:white;
+  background-position: center;
+  background-size: cover;
+  height:100vh;
+}
+.g{
+  color:red;
+  font-size:larger;
+}
+.m{
+  color:blue;
+  font-size:larger;
+}
+.r{
+  color:yellow;
+  font-size:larger;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  background-color:rgba(0,0,0,0.5);
+  width:200px;
+  text-align: left;
+  font-size: 22px;
+  border-radius: 10px;
+  margin:0px;
+  position: absolute;
+  left:20px;
+  bottom:300px;
+
+}
+.current-info{
+  height:100vh;
+  background-color: rgb(244, 191, 92);
+}
+
